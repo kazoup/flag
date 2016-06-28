@@ -4,6 +4,7 @@ machine:
 dependencies:
         override:
                 - make
+                - docker images
 test:
         override:
                 - sleep 10
