@@ -3,8 +3,8 @@ package handler
 import (
 	"encoding/json"
 	"fmt"
-	elasticsearch "github.com/Rakanixu/elastic/srv/proto/elastic"
-	proto "github.com/Rakanixu/flag/srv/proto/flag"
+	elasticsearch "github.com/kazoup/elastic/srv/proto/elastic"
+	proto "github.com/kazoup/flag/srv/proto/flag"
 	"github.com/micro/go-micro/client"
 	"github.com/micro/go-micro/errors"
 	"golang.org/x/net/context"

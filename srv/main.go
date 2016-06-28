@@ -1,9 +1,10 @@
 package main
 
 import (
-	"github.com/Rakanixu/flag/srv/handler"
-	"github.com/micro/go-micro"
 	"log"
+
+	"github.com/kazoup/flag/srv/handler"
+	"github.com/micro/go-micro"
 )
 
 func main() {

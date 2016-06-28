@@ -2,12 +2,13 @@ package handler
 
 import (
 	"encoding/json"
-	proto "github.com/Rakanixu/flag/srv/proto/flag"
+	"net/http"
+
+	proto "github.com/kazoup/flag/srv/proto/flag"
 	"github.com/micro/go-micro/client"
 	"github.com/micro/go-micro/errors"
 	api "github.com/micro/micro/api/proto"
 	"golang.org/x/net/context"
-	"net/http"
 )
 
 // Flag struct
